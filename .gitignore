@@ -1,0 +1,117 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+eggs/
+.eggs/
+
+# Unit test / coverage
+.coverage
+.coverage.*
+.cache
+*.cover
+*.py,cover
+.pytest_cache/
+
+# Type checkers
+.mypy_cache/
+.pytype/
+
+# =========================
+# Virtual environments
+# =========================
+.env
+.env.*
+.venv/
+venv/
+ENV/
+env/
+venv.bak/
+
+# =========================
+# FastAPI / Uvicorn
+# =========================
+*.log
+logs/
+uvicorn.log
+
+# =========================
+# Environment variables
+# =========================
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================
+# macOS
+# =========================
+.DS_Store
+.AppleDouble
+
+# =========================
+# Editor
+# =========================
+.zed/
+.zed-state.json
+.vscode/
+.idea/
+
+# =========================
+# Ruff
+# =========================
+.ruff_cache/
+
+# =========================
+# Docker
+# =========================
+*.pid
+*.seed
+*.pid.lock
+
+# =========================
+# Database files
+# =========================
+*.sqlite3
+*.db
+
+# =========================
+# Celery
+# =========================
+celerybeat-schedule
+celerybeat.pid
+
+# =========================
+# Temporary files
+# =========================
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+
+# =========================
+# Node
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Misc
+# =========================
+
+AGENTS.md
+coverage/
